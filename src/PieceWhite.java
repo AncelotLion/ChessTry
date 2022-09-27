@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 class Piece extends Button {
-    Icon iconPieceWhite = new ImageIcon("src/pieceWhite.png");
+    Icon iconPieceWhite = new ImageIcon("src/pawnWhite.png");
     JButton pieceWhite1 = new JButton(iconPieceWhite);
     JButton pieceWhite2 = new JButton(iconPieceWhite);
     JButton pieceWhite3 = new JButton(iconPieceWhite);
@@ -49,17 +49,7 @@ class Piece extends Button {
         pieceWhite8.addActionListener(this);
 
 
-
-
-
     }
-
-
-
-
-
-
-
 
 
 
